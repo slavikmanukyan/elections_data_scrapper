@@ -2,13 +2,26 @@
   "name": "elections_data_scrapper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node main.js"
   },
   "author": "Slavik Manukyan",
   "license": "ISC",
   "dependencies": {
-    "phantom": "^4.0.12"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "cheerio": "^1.0.0-rc.2",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.5",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "phantom": "^4.0.12",
+    "sequelize": "^4.37.6"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-env": "^1.6.1"
   }
 }
